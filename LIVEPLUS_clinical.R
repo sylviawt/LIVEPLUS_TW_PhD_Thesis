@@ -294,3 +294,32 @@ mean_hba1c_by_subgroup <- aggregate(hba1c~Subgroup, data = hba1c, FUN=mean)
 sd_hba1c_by_subgroup <- aggregate(hba1c~Subgroup, data = hba1c, FUN=sd)
 
 
+
+#------------------------------------------------------- 
+# To calculate the mean of clinical data after one month of intervention using jamovi
+#------------------------------------------------------- 
+
+jmv::descriptives(
+                    formula = bmi_calculated.month_1_arm_1 + SBP_mean.month_1_arm_1 + DBP_mean.month_1_arm_1 + 
+                        bloods_cholesterol.month_1_arm_1 + bloods_ldl.month_1_arm_1 + bloods_hdl.month_1_arm_1 + 
+                        bloods_haemoglobin.month_1_arm_1 + bloods_tag.month_1_arm_1 + anthro_weight1.month_1_arm_1 
+                        ~ Treatment,
+                    data = data,
+                    ci = TRUE)
+
+
+
+#------------------------------------------------------- 
+# To calculate changes in clinical data after one month of intervention using jamovi
+#------------------------------------------------------- 
+
+jmv::ttestIS(
+                formula = `Change in weight` + `Change in BMI` + `Change in SBP` + `Change in DBP` + 
+                `Change in TC` + `Change in LDL` + `Change in HDL` + `Change in TG` + `Change in HbA1c` 
+                ~ Treatment,
+                    data = data,
+                    vars = vars(Change in weight, Change in BMI, Change in SBP, Change in DBP, Change in TC, 
+                                Change in LDL, Change in HDL, Change in TG, Change in HbA1c),
+                    meanDiff = TRUE,
+                    ci = TRUE,
+                    desc = TRUE)
