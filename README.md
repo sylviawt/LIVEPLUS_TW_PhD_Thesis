@@ -23,7 +23,7 @@ This work was presented at Nutrition 2023 with abstract published (https://doi.o
 ## Recommendations for Citation of Supporting Materials
 
 Tian Wang. R scripts and datasets for the LIVEPLUS chapters (Chapter 6 and Chapter 7) of 
-Tian WANG's PhD Thesis entitled "Plant-based Diet on Cardiovascular Disease".Zenodo. 2023. 
-DOI: 10.5281/zenodo.8017027
+Tian WANG's PhD Thesis entitled "Plant-based Diet on Cardiovascular Disease". Zenodo. 2023. 
+DOI: 10.5281/zenodo.8371749
     
-[![DOI](https://zenodo.org/badge/649641333.svg)](https://zenodo.org/badge/latestdoi/649641333)
+[![DOI](https://zenodo.org/badge/695003568.svg)](https://zenodo.org/badge/latestdoi/695003568)
