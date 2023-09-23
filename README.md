@@ -10,6 +10,11 @@ This work was presented at Nutrition 2023 with abstract published (https://doi.o
 
 ## Description of Folder Contents
 
+-   **Deidentified_baseline_character**: De-identified dataset of baseline demographics and clinical characteristics
+    of LIVEPLUS participants.
+-   **LIVEPLUS_FoodDiary**: De-identified dataset of dietary intake data of LIVEPLUS participants at baseline and
+    after one month of intervention.
+-   **LIVEPLUS_M1**: De-identified dataset of clinical data of LIVEPLUS participants after one month of intervention.
 -   **fixedQmethodsForMD**: Supporting R script to run meta-analysis of 
     manuscript: Tian Wang, Cynthia M Kroeger, Sophie Cassidy, Sayan Mitra, 
     Rosilene V Ribeiro, Shane Jose, Andrius Masedunskas, Alistair M Senior, 
