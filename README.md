@@ -17,12 +17,8 @@ This work was presented at Nutrition 2023 with abstract published (https://doi.o
 -   **LIVEPLUS_M1**: De-identified dataset of clinical data of LIVEPLUS participants after one month of intervention.
 -   **LIVEPLUS_FoodDiary.R**: Supporting R scripts to run analyses of food groups and nutrient intakes of LIVEPLUS
     participants at baseline and after one month of intervention.
--   **meta-analysis**: R script of meta-analysis for conference abstract and 
-    manuscript: Tian Wang, Cynthia M Kroeger, Sophie Cassidy, Sayan Mitra, 
-    Rosilene V Ribeiro, Shane Jose, Andrius Masedunskas, Alistair M Senior, 
-    Luigi Fontana. Vegetarian Dietary Patterns and Cardiometabolic Risk in People 
-    With or At High Risk of Cardiovascular Disease: A Systematic Review and 
-    Meta-analysis
+-   **LIVEPLUS_clinicl.R**: Supporting R scripts to run analyses of clinical data of LIVEPLUS participants at baseline
+    and after one month of intervention.
 
 ## Recommendations for Citation of Supporting Materials
 
